@@ -88,3 +88,24 @@ body {
 #totalTip{
     font-size: large;
 }
+.tip-percentage button {
+    background-color: #F0F0F0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#calculate {
+    background-color: #805B96;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.tip-and-total {
+    margin-top: 70px;
+    font-size: large;
+}

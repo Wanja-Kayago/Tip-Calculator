@@ -41,3 +41,19 @@ calculateBtn.addEventListener('click', function() {
     tipPerPersonOutput.parentElement.style.display = 'block';
   }
 });
+const btn15 = document.getElementById('btn15');
+const btn18 = document.getElementById('btn18');
+const btn20 = document.getElementById('btn20');
+btn15.addEventListener('click', function() {
+  btn15.classList.toggle('active');
+});
+btn18.addEventListener('click', function() {
+  btn18.classList.toggle('active');
+  btn15.classList.remove('active');
+  btn20.classList.remove('active');
+});
+btn20.addEventListener('click', function() {
+  btn20.classList.toggle('active');
+  btn15.classList.remove('active');
+  btn18.classList.remove('active');
+});
