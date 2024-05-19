@@ -22,3 +22,27 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
 }
+.bill-amount{
+    margin-top: 70px;
+}
+.tip-percentage{
+    margin-top: 50px;
+}
+.number-of-people{
+    margin-top: 50px;
+}
+.total-tip{
+    margin-bottom: 70px;
+}
+.total-bill {
+    margin-bottom: 90px;
+}
+#btn15{
+    background-color: orange;
+}
+#btn18{
+    background-color: yellow;
+}
+#btn20{
+    background-color: chartreuse;
+}
