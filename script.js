@@ -16,3 +16,10 @@ calculateBtn.addEventListener('click', function() {
     } else {
       tipPercentage = 0.2;
     } })
+
+    const tipAmount = billTotal * tipPercentage / noOfPeople;
+  const totalBill = billTotal/noOfPeople + tipAmount;
+  const tipPerPerson = tipAmount / noOfPeople;
+  totalTipOutput.textContent = `Ksh ${tipAmount.toFixed(2)}`;
+  totalBillOutput.textContent = `Ksh ${totalBill.toFixed(2)}`;
+  tipPerPersonOutput.textContent = `Ksh ${tipPerPerson.toFixed(2)}`;

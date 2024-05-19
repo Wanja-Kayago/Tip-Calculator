@@ -46,3 +46,22 @@ body {
 #btn20{
     background-color: chartreuse;
 }
+
+#noOfPeople{
+    height: 50px;
+    width: 200px;
+}
+#billTotal{
+    height: 50px;
+    width: 200px;
+}
+.bill-amount span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tip-percentage span{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
